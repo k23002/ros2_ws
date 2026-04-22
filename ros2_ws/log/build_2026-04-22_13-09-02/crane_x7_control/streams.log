@@ -1,0 +1,96 @@
+[0.007s] Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_control': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control -DCMAKE_INSTALL_PREFIX=/home/chujoken/ros2_ws/install/crane_x7_control
+[0.044s] -- The C compiler identification is GNU 13.3.0
+[0.084s] -- The CXX compiler identification is GNU 13.3.0
+[0.094s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.361s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.453s] -- Found hardware_interface: 4.44.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.501s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.515s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.751s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.795s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.798s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.827s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.047s] -- Found rt_manipulators_cpp: 1.1.0 (/opt/ros/jazzy/share/rt_manipulators_cpp/cmake)
+[1.062s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.066s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.155s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.156s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.156s] -- Configured cppcheck include dirs: /home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/include
+[1.156s] -- Configured cppcheck exclude dirs and/or files: 
+[1.157s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.157s] -- Configured cpplint exclude dirs and/or files: 
+[1.158s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.158s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.159s] -- Added test 'lint_cmake' to check CMake code style
+[1.159s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.160s] -- Added test 'uncrustify' to check C / C++ code style
+[1.160s] -- Configured uncrustify additional arguments: 
+[1.161s] -- Added test 'xmllint' to check XML markup files
+[1.164s] -- Configuring done (1.2s)
+[1.179s] -- Generating done (0.0s)
+[1.182s] -- Build files have been written to: /home/chujoken/ros2_ws/build/crane_x7_control
+[1.189s] Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_control' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control -DCMAKE_INSTALL_PREFIX=/home/chujoken/ros2_ws/install/crane_x7_control
+[1.189s] Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_control': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_control -- -j16 -l16
+[1.226s] [ 50%] [32mBuilding CXX object CMakeFiles/crane_x7_hardware.dir/src/crane_x7_hardware.cpp.o[0m
+[3.063s] [01m[K/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/src/crane_x7_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn crane_x7_control::CraneX7Hardware::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[3.063s] [01m[K/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/src/crane_x7_hardware.cpp:52:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.063s]    52 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+[3.063s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.063s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[3.063s]                  from [01m[K/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/include/crane_x7_control/crane_x7_hardware.hpp:23[m[K,
+[3.063s]                  from [01m[K/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/src/crane_x7_hardware.cpp:20[m[K:
+[3.063s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.063s]   140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+[3.063s]       |                          [01;36m[K^~~~~~~[m[K
+[4.467s] [100%] [32m[1mLinking CXX shared library libcrane_x7_hardware.so[0m
+[4.595s] [100%] Built target crane_x7_hardware
+[4.603s] Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_control' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_control -- -j16 -l16
+[4.603s] Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_control': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_control
+[4.610s] -- Install configuration: ""
+[4.610s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/crane_x7_hardware.xml
+[4.610s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/lib/libcrane_x7_hardware.so
+[4.610s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_control/lib/libcrane_x7_hardware.so" to ""
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/include
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/include/crane_x7_control
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/include/crane_x7_control/visibility_control.h
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/include/crane_x7_control/crane_x7_hardware.hpp
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//launch
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//launch/crane_x7_control.launch.py
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//config
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//config/crane_x7_controllers.yaml
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//config/manipulator_config.yaml
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//config/manipulator_links.csv
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/library_path.sh
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/library_path.dsv
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/package_run_dependencies/crane_x7_control
+[4.611s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/parent_prefix_path/crane_x7_control
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/ament_prefix_path.sh
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/ament_prefix_path.dsv
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/path.sh
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/path.dsv
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.bash
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.sh
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.zsh
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.dsv
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.dsv
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/packages/crane_x7_control
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/crane_x7_control
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/ament_cmake_export_libraries-extras.cmake
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.612s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/crane_x7_controlConfig.cmake
+[4.613s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/crane_x7_controlConfig-version.cmake
+[4.613s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.xml
+[4.614s] Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_control' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_control

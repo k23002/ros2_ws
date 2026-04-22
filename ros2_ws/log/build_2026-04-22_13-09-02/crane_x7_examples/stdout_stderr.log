@@ -1,0 +1,181 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found image_geometry: 4.1.0 (/opt/ros/jazzy/share/image_geometry/cmake)
+-- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.7.1 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found OpenCV: /usr (found version "4.6.0") found components: core 
+-- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:25 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found flann version 1.9.2
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.27
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.14  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+-- Found PCL_MODELER: /usr/include/pcl-1.14  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found pcl_ros: 2.6.4 (/opt/ros/jazzy/share/pcl_ros/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.6s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/chujoken/ros2_ws/build/crane_x7_examples
+[ 22%] [32mBuilding CXX object CMakeFiles/joint_values.dir/src/joint_values.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/pick_and_place_tf.dir/src/pick_and_place_tf.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/aruco_detection.dir/src/aruco_detection.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/pose_groupstate.dir/src/pose_groupstate.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/color_detection.dir/src/color_detection.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_detection.dir/src/point_cloud_detection.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable gripper_control[0m
+[ 61%] [32m[1mLinking CXX executable pose_groupstate[0m
+[ 66%] [32m[1mLinking CXX executable cartesian_path[0m
+[ 72%] [32m[1mLinking CXX executable pick_and_place[0m
+[ 72%] Built target pose_groupstate
+[ 72%] Built target gripper_control
+[ 72%] Built target cartesian_path
+[ 72%] Built target pick_and_place
+[ 77%] [32m[1mLinking CXX executable pick_and_place_tf[0m
+[ 77%] Built target pick_and_place_tf
+[ 83%] [32m[1mLinking CXX executable joint_values[0m
+[ 83%] Built target joint_values
+[ 88%] [32m[1mLinking CXX executable aruco_detection[0m
+[ 94%] [32m[1mLinking CXX executable color_detection[0m
+[ 94%] Built target aruco_detection
+[ 94%] Built target color_detection
+[100%] [32m[1mLinking CXX executable point_cloud_detection[0m
+[100%] Built target point_cloud_detection
+-- Install configuration: ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/gripper_control
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/gripper_control" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/cartesian_path
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/cartesian_path" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pose_groupstate
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pose_groupstate" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/joint_values
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/joint_values" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place_tf
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place_tf" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/aruco_detection
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/aruco_detection" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/color_detection
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/color_detection" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/point_cloud_detection
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/point_cloud_detection" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/example.launch.py
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/demo.launch.py
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/camera_example.launch.py
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/camera_example.rviz
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/ament_index/resource_index/package_run_dependencies/crane_x7_examples
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/ament_index/resource_index/parent_prefix_path/crane_x7_examples
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/ament_prefix_path.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/ament_prefix_path.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/path.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/path.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.bash
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.zsh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/ament_index/resource_index/packages/crane_x7_examples
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/cmake/crane_x7_examplesConfig.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/cmake/crane_x7_examplesConfig-version.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.xml

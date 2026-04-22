@@ -1,0 +1,67 @@
+running egg_info
+creating ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info
+writing ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/entry_points.txt
+writing requirements to ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/requires.txt
+writing top-level names to ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/top_level.txt
+writing manifest file '../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/SOURCES.txt'
+reading manifest file '../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/chujoken/ros2_ws/build/crane_x7_examples_py/build
+creating /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib
+creating /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+copying crane_x7_examples_py/color_detection.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+copying crane_x7_examples_py/utils.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+copying crane_x7_examples_py/pick_and_place.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+copying crane_x7_examples_py/pick_and_place_tf.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+copying crane_x7_examples_py/__init__.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+copying crane_x7_examples_py/joint_values.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+copying crane_x7_examples_py/pose_groupstate.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+copying crane_x7_examples_py/aruco_detection.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+copying crane_x7_examples_py/gripper_control.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+running install
+running install_lib
+creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/color_detection.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/utils.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/pick_and_place.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/pick_and_place_tf.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/__init__.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/joint_values.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/pose_groupstate.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/aruco_detection.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/gripper_control.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/color_detection.py to color_detection.cpython-312.pyc
+byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/utils.py to utils.cpython-312.pyc
+byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/pick_and_place.py to pick_and_place.cpython-312.pyc
+byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/pick_and_place_tf.py to pick_and_place_tf.cpython-312.pyc
+byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/joint_values.py to joint_values.cpython-312.pyc
+byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/pose_groupstate.py to pose_groupstate.cpython-312.pyc
+byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/aruco_detection.py to aruco_detection.cpython-312.pyc
+byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/gripper_control.py to gripper_control.cpython-312.pyc
+running install_data
+creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/ament_index
+creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/ament_index/resource_index
+creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/ament_index/resource_index/packages
+copying resource/crane_x7_examples_py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py
+creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/launch
+copying launch/example.launch.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/launch
+copying launch/camera_example.launch.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/launch
+creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/config
+copying config/crane_x7_moveit_py_examples.yaml -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/config
+running install_egg_info
+Copying ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py-5.0.0-py3.12.egg-info
+running install_scripts
+Installing aruco_detection script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+Installing color_detection script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+Installing gripper_control script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+Installing joint_values script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+Installing pick_and_place script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+Installing pick_and_place_tf script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+Installing pose_groupstate script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+writing list of installed files to '/home/chujoken/ros2_ws/build/crane_x7_examples_py/install.log'

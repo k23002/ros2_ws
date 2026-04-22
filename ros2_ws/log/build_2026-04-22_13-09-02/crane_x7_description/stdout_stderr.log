@@ -1,0 +1,115 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/chujoken/ros2_ws/build/crane_x7_description
+Built target ament_cmake_python_copy_crane_x7_description
+running egg_info
+creating crane_x7_description.egg-info
+writing crane_x7_description.egg-info/PKG-INFO
+writing dependency_links to crane_x7_description.egg-info/dependency_links.txt
+writing top-level names to crane_x7_description.egg-info/top_level.txt
+writing manifest file 'crane_x7_description.egg-info/SOURCES.txt'
+reading manifest file 'crane_x7_description.egg-info/SOURCES.txt'
+writing manifest file 'crane_x7_description.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_crane_x7_description_egg
+-- Install configuration: ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//config
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//config/dummy_controllers.yaml
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//launch
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//launch/display.launch.py
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//launch/display.rviz
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_revolute_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_a.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_a.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wrist.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_fixed_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/base_fixed_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_b.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/base_fixed_part.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/mounting_plate.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wrist.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_revolute_part.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_revolute_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/mounting_plate.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_fixed_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_b.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_fixed_part.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_revolute_part.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_fixed_part.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_actuator.skp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_actuator.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_1_revolute_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/wide_two_finger_gripper_finger_a.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/wrist.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_2_fixed_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/base_fixed_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/wide_two_finger_gripper_finger_b.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rtcorp_logo_name.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/base_revolute_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_2_revolute_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/mounting_plate.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_1_fixed_part.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/joint_cover.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rtcorp_logo_rabbit.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/wide_two_finger_gripper_actuator.stl
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_wide_two_finger_gripper.xacro
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_arm.xacro
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.urdf.xacro
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_rt_logos.xacro
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.xacro
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_mounting_plate.xacro
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.gazebo.xacro
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.gazebo_ros2_control.xacro
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.ros2_control.xacro
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/environment/pythonpath.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/environment/pythonpath.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description-4.0.0-py3.12.egg-info
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description-4.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description-4.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description-4.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description-4.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description/robot_description_loader.py
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description/__init__.py
+Listing '/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description'...
+Compiling '/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description/__init__.py'...
+Compiling '/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages/crane_x7_description/robot_description_loader.py'...
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/lib/crane_x7_description/robot_description_loader.py
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/ament_index/resource_index/package_run_dependencies/crane_x7_description
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/ament_index/resource_index/parent_prefix_path/crane_x7_description
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/environment/ament_prefix_path.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/environment/ament_prefix_path.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/environment/path.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/environment/path.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/local_setup.bash
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/local_setup.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/local_setup.zsh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/local_setup.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/ament_index/resource_index/packages/crane_x7_description
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/cmake/crane_x7_descriptionConfig.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/cmake/crane_x7_descriptionConfig-version.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.xml

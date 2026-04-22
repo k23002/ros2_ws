@@ -1,0 +1,90 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found hardware_interface: 4.44.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rt_manipulators_cpp: 1.1.0 (/opt/ros/jazzy/share/rt_manipulators_cpp/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/chujoken/ros2_ws/build/crane_x7_control
+[ 50%] [32mBuilding CXX object CMakeFiles/crane_x7_hardware.dir/src/crane_x7_hardware.cpp.o[0m
+[01m[K/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/src/crane_x7_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn crane_x7_control::CraneX7Hardware::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/src/crane_x7_hardware.cpp:52:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   52 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+                 from [01m[K/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/include/crane_x7_control/crane_x7_hardware.hpp:23[m[K,
+                 from [01m[K/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control/src/crane_x7_hardware.cpp:20[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+      |                          [01;36m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libcrane_x7_hardware.so[0m
+[100%] Built target crane_x7_hardware
+-- Install configuration: ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/crane_x7_hardware.xml
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/lib/libcrane_x7_hardware.so
+-- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_control/lib/libcrane_x7_hardware.so" to ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/include
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/include/crane_x7_control
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/include/crane_x7_control/visibility_control.h
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/include/crane_x7_control/crane_x7_hardware.hpp
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//launch
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//launch/crane_x7_control.launch.py
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//config
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//config/crane_x7_controllers.yaml
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//config/manipulator_config.yaml
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control//config/manipulator_links.csv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/library_path.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/library_path.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/package_run_dependencies/crane_x7_control
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/parent_prefix_path/crane_x7_control
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/ament_prefix_path.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/ament_prefix_path.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/path.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/environment/path.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.bash
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.zsh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/local_setup.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/packages/crane_x7_control
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/crane_x7_control
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/crane_x7_controlConfig.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/cmake/crane_x7_controlConfig-version.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.xml

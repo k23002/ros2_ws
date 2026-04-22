@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: crane-x7-examples-py
+Version: 5.0.0
+Summary: python examples of CRANE-X7 ROS package
+Maintainer: RT Corporation
+Maintainer-email: shop@rt-net.jp
+License: Apache License 2.0

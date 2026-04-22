@@ -1,0 +1,535 @@
+[0.085s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.086s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72b37e8bbb00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72b37e8bb530>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72b37e8bb530>>, mixin_verb=('build',))
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.112s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chujoken/ros2_ws'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_description' with type 'ros.ament_cmake' and name 'crane_x7_description'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7' with type 'ros.ament_cmake' and name 'crane_x7'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_control' with type 'ros.ament_cmake' and name 'crane_x7_control'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_examples' with type 'ros.ament_cmake' and name 'crane_x7_examples'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_examples_py' with type 'ros.ament_python' and name 'crane_x7_examples_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_gazebo' with type 'ros.ament_cmake' and name 'crane_x7_gazebo'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_moveit_config' with type 'ros.ament_cmake' and name 'crane_x7_moveit_config'
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.155s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/chujoken/ros2_ws/install
+[0.156s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 422 installed packages in /opt/ros/jazzy
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_description' build argument 'cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_description' build argument 'cmake_target' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.200s] DEBUG:colcon.colcon_core.verb:Building package 'crane_x7_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chujoken/ros2_ws/build/crane_x7_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chujoken/ros2_ws/install/crane_x7_description', 'merge_install': False, 'path': '/home/chujoken/ros2_ws/src/crane_x7_description', 'symlink_install': False, 'test_result_base': None}
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.200s] DEBUG:colcon.colcon_core.verb:Building package 'crane_x7_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chujoken/ros2_ws/build/crane_x7_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chujoken/ros2_ws/install/crane_x7_gazebo', 'merge_install': False, 'path': '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_control' build argument 'cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_control' build argument 'cmake_target' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.200s] DEBUG:colcon.colcon_core.verb:Building package 'crane_x7_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chujoken/ros2_ws/build/crane_x7_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chujoken/ros2_ws/install/crane_x7_control', 'merge_install': False, 'path': '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control', 'symlink_install': False, 'test_result_base': None}
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'crane_x7_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chujoken/ros2_ws/build/crane_x7_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chujoken/ros2_ws/install/crane_x7_moveit_config', 'merge_install': False, 'path': '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'crane_x7_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chujoken/ros2_ws/build/crane_x7_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chujoken/ros2_ws/install/crane_x7_examples', 'merge_install': False, 'path': '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples', 'symlink_install': False, 'test_result_base': None}
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples_py' build argument 'cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples_py' build argument 'cmake_target' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.201s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_examples_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] DEBUG:colcon.colcon_core.verb:Building package 'crane_x7_examples_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chujoken/ros2_ws/build/crane_x7_examples_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chujoken/ros2_ws/install/crane_x7_examples_py', 'merge_install': False, 'path': '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples_py', 'symlink_install': False, 'test_result_base': None}
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'crane_x7' build argument 'cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'crane_x7' build argument 'cmake_target' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'crane_x7' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'crane_x7' build argument 'cmake_clean_cache' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'crane_x7' build argument 'cmake_clean_first' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'crane_x7' build argument 'cmake_force_configure' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'crane_x7' build argument 'ament_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'crane_x7' build argument 'catkin_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'crane_x7' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.202s] DEBUG:colcon.colcon_core.verb:Building package 'crane_x7' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chujoken/ros2_ws/build/crane_x7', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chujoken/ros2_ws/install/crane_x7', 'merge_install': False, 'path': '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7', 'symlink_install': False, 'test_result_base': None}
+[0.202s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.202s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.203s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chujoken/ros2_ws/src/crane_x7_description' with build type 'ament_cmake'
+[0.203s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chujoken/ros2_ws/src/crane_x7_description'
+[0.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.207s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_gazebo' with build type 'ament_cmake'
+[0.208s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_gazebo'
+[0.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_description -- -j16 -l16
+[0.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_gazebo -- -j16 -l16
+[0.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_gazebo -- -j16 -l16
+[0.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_gazebo
+[0.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_gazebo)
+[0.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_gazebo
+[0.258s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo' for CMake module files
+[0.259s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo' for CMake config files
+[0.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_gazebo', 'cmake_prefix_path')
+[0.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.ps1'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.dsv'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.sh'
+[0.260s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo/bin'
+[0.260s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo/lib/pkgconfig/crane_x7_gazebo.pc'
+[0.261s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo/lib/python3.12/site-packages'
+[0.261s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo/bin'
+[0.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.ps1'
+[0.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.dsv'
+[0.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.sh'
+[0.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.bash'
+[0.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.zsh'
+[0.264s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/colcon-core/packages/crane_x7_gazebo)
+[0.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_gazebo)
+[0.264s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo' for CMake module files
+[0.265s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo' for CMake config files
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_gazebo', 'cmake_prefix_path')
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.ps1'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.dsv'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.sh'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo/bin'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo/lib/pkgconfig/crane_x7_gazebo.pc'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo/lib/python3.12/site-packages'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_gazebo/bin'
+[0.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.bash'
+[0.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.zsh'
+[0.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_gazebo/share/colcon-core/packages/crane_x7_gazebo)
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_description -- -j16 -l16
+[0.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_description
+[0.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_description)
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description' for CMake module files
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_description
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description' for CMake config files
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_description', 'cmake_prefix_path')
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/cmake_prefix_path.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/cmake_prefix_path.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/cmake_prefix_path.sh'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/lib'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/bin'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/lib/pkgconfig/crane_x7_description.pc'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages'
+[0.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_description', 'pythonpath')
+[0.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/pythonpath.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/pythonpath.dsv'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/pythonpath.sh'
+[0.633s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/bin'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.sh'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.bash'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.zsh'
+[0.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_description/share/colcon-core/packages/crane_x7_description)
+[0.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_description)
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description' for CMake module files
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description' for CMake config files
+[0.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_description', 'cmake_prefix_path')
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/cmake_prefix_path.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/cmake_prefix_path.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/cmake_prefix_path.sh'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/lib'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/bin'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/lib/pkgconfig/crane_x7_description.pc'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages'
+[0.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_description', 'pythonpath')
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/pythonpath.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/pythonpath.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/hook/pythonpath.sh'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_description/bin'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.bash'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_description/share/crane_x7_description/package.zsh'
+[0.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_description/share/colcon-core/packages/crane_x7_description)
+[0.641s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control' with build type 'ament_cmake'
+[0.641s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_control'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.644s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_moveit_config' with build type 'ament_cmake'
+[0.644s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_moveit_config'
+[0.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_control': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_control -- -j16 -l16
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_moveit_config': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_moveit_config -- -j16 -l16
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_moveit_config -- -j16 -l16
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_moveit_config': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_moveit_config
+[0.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_moveit_config)
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config' for CMake module files
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_moveit_config
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config' for CMake config files
+[0.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_moveit_config', 'cmake_prefix_path')
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/hook/cmake_prefix_path.ps1'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/hook/cmake_prefix_path.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/hook/cmake_prefix_path.sh'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/bin'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/lib/pkgconfig/crane_x7_moveit_config.pc'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/lib/python3.12/site-packages'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/bin'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.ps1'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.dsv'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.sh'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.bash'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.zsh'
+[0.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/colcon-core/packages/crane_x7_moveit_config)
+[0.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_moveit_config)
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config' for CMake module files
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config' for CMake config files
+[0.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_moveit_config', 'cmake_prefix_path')
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/hook/cmake_prefix_path.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/hook/cmake_prefix_path.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/hook/cmake_prefix_path.sh'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/bin'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/lib/pkgconfig/crane_x7_moveit_config.pc'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/lib/python3.12/site-packages'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/bin'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.ps1'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.sh'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.bash'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/crane_x7_moveit_config/package.zsh'
+[0.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_moveit_config/share/colcon-core/packages/crane_x7_moveit_config)
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_control' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_control -- -j16 -l16
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_control': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_control
+[0.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_control)
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control' for CMake module files
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_control' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_control
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control' for CMake config files
+[0.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_control', 'cmake_prefix_path')
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/cmake_prefix_path.ps1'
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/cmake_prefix_path.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/cmake_prefix_path.sh'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/lib'
+[0.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_control', 'ld_library_path_lib')
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/ld_library_path_lib.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/ld_library_path_lib.dsv'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/ld_library_path_lib.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/bin'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/lib/pkgconfig/crane_x7_control.pc'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/lib/python3.12/site-packages'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/bin'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.dsv'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.sh'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.bash'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.zsh'
+[0.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_control/share/colcon-core/packages/crane_x7_control)
+[0.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_control)
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control' for CMake module files
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control' for CMake config files
+[0.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_control', 'cmake_prefix_path')
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/cmake_prefix_path.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/cmake_prefix_path.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/cmake_prefix_path.sh'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/lib'
+[0.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_control', 'ld_library_path_lib')
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/ld_library_path_lib.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/ld_library_path_lib.dsv'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/hook/ld_library_path_lib.sh'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/bin'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/lib/pkgconfig/crane_x7_control.pc'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/lib/python3.12/site-packages'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_control/bin'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.sh'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.bash'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_control/share/crane_x7_control/package.zsh'
+[0.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_control/share/colcon-core/packages/crane_x7_control)
+[0.722s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples' with build type 'ament_cmake'
+[0.722s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples'
+[0.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.726s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples_py' with build type 'ament_python'
+[0.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_examples_py', 'ament_prefix_path')
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/hook/ament_prefix_path.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/hook/ament_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/hook/ament_prefix_path.sh'
+[0.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_examples': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_examples -- -j16 -l16
+[0.945s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples_py'
+[0.945s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.945s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_examples' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_examples -- -j16 -l16
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_examples': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_examples
+[0.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_examples)
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples' for CMake module files
+[0.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_examples' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_examples
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples' for CMake config files
+[0.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_examples', 'cmake_prefix_path')
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/hook/cmake_prefix_path.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/hook/cmake_prefix_path.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/hook/cmake_prefix_path.sh'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/lib'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/bin'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/lib/pkgconfig/crane_x7_examples.pc'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/lib/python3.12/site-packages'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/bin'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.dsv'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.sh'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.bash'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.zsh'
+[0.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_examples/share/colcon-core/packages/crane_x7_examples)
+[0.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_examples)
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples' for CMake module files
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples' for CMake config files
+[0.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_examples', 'cmake_prefix_path')
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/hook/cmake_prefix_path.ps1'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/hook/cmake_prefix_path.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/hook/cmake_prefix_path.sh'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/lib'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/bin'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/lib/pkgconfig/crane_x7_examples.pc'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/lib/python3.12/site-packages'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples/bin'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.ps1'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.dsv'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.sh'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.bash'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.zsh'
+[0.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_examples/share/colcon-core/packages/crane_x7_examples)
+[0.967s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7' with build type 'ament_cmake'
+[0.967s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7'
+[0.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7 -- -j16 -l16
+[1.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7 -- -j16 -l16
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/build/crane_x7': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7
+[1.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7)
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/build/crane_x7' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7' for CMake module files
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7' for CMake config files
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7', 'cmake_prefix_path')
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/hook/cmake_prefix_path.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/hook/cmake_prefix_path.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/hook/cmake_prefix_path.sh'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7/bin'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7/lib/pkgconfig/crane_x7.pc'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7/lib/python3.12/site-packages'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7/bin'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.sh'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.bash'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.zsh'
+[1.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7/share/colcon-core/packages/crane_x7)
+[1.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7)
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7' for CMake module files
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7' for CMake config files
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7', 'cmake_prefix_path')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/hook/cmake_prefix_path.ps1'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/hook/cmake_prefix_path.dsv'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/hook/cmake_prefix_path.sh'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7/bin'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7/lib/pkgconfig/crane_x7.pc'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7/lib/python3.12/site-packages'
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7/bin'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.dsv'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.sh'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.bash'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.zsh'
+[1.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7/share/colcon-core/packages/crane_x7)
+[1.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples_py': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/build/crane_x7_examples_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crane_x7_examples_py build --build-base /home/chujoken/ros2_ws/build/crane_x7_examples_py/build install --record /home/chujoken/ros2_ws/build/crane_x7_examples_py/install.log --single-version-externally-managed install_data
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples_py' for CMake module files
+[2.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples_py' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/build/crane_x7_examples_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crane_x7_examples_py build --build-base /home/chujoken/ros2_ws/build/crane_x7_examples_py/build install --record /home/chujoken/ros2_ws/build/crane_x7_examples_py/install.log --single-version-externally-managed install_data
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples_py' for CMake config files
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib'
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples_py/bin'
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/pkgconfig/crane_x7_examples_py.pc'
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages'
+[2.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_examples_py', 'pythonpath')
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/hook/pythonpath.ps1'
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/hook/pythonpath.dsv'
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/hook/pythonpath.sh'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/chujoken/ros2_ws/install/crane_x7_examples_py/bin'
+[2.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_examples_py)
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/package.ps1'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/package.dsv'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/package.sh'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/package.bash'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/package.zsh'
+[2.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chujoken/ros2_ws/install/crane_x7_examples_py/share/colcon-core/packages/crane_x7_examples_py)
+[2.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.118s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.118s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.118s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.126s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chujoken/ros2_ws/install/local_setup.ps1'
+[2.127s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chujoken/ros2_ws/install/_local_setup_util_ps1.py'
+[2.128s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chujoken/ros2_ws/install/setup.ps1'
+[2.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chujoken/ros2_ws/install/local_setup.sh'
+[2.129s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chujoken/ros2_ws/install/_local_setup_util_sh.py'
+[2.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chujoken/ros2_ws/install/setup.sh'
+[2.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chujoken/ros2_ws/install/local_setup.bash'
+[2.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chujoken/ros2_ws/install/setup.bash'
+[2.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chujoken/ros2_ws/install/local_setup.zsh'
+[2.132s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chujoken/ros2_ws/install/setup.zsh'

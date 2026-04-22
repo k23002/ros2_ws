@@ -1,0 +1,187 @@
+[0.008s] Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_examples': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples -DCMAKE_INSTALL_PREFIX=/home/chujoken/ros2_ws/install/crane_x7_examples
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.087s] -- The CXX compiler identification is GNU 13.3.0
+[0.098s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.171s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.247s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.250s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.367s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.461s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.514s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.528s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.562s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.689s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.692s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.721s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.782s] -- Found image_geometry: 4.1.0 (/opt/ros/jazzy/share/image_geometry/cmake)
+[0.786s] -- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.877s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.087s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.151s] -- Found parameter_traits: 0.7.1 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.168s] -- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.202s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.263s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.263s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.284s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.424s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.470s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.534s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.570s] -- Found OpenCV: /usr (found version "4.6.0") found components: core 
+[1.572s] -- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[1.612s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.612s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.612s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.612s]   cmake_policy command to set the policy and suppress this warning.
+[1.612s] 
+[1.613s]   CMake variable FLANN_ROOT is set to:
+[1.613s] 
+[1.613s]     /usr
+[1.613s] 
+[1.613s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.613s]   .cmake module might still use it.
+[1.613s] Call Stack (most recent call first):
+[1.613s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.613s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.613s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.613s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.613s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.613s]   CMakeLists.txt:25 (find_package)
+[1.613s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.613s] [0m
+[1.613s] -- Found flann version 1.9.2
+[1.829s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.830s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[2.945s] -- Checking for module 'libusb-1.0'
+[2.955s] --   Found libusb-1.0, version 1.0.27
+[2.977s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.978s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.014s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.017s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.029s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[3.046s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[3.385s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.389s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.716s] -- Found Qhull version 8.0.2
+[4.054s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.379s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.380s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.381s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.382s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.383s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.384s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.384s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[4.384s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[4.385s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.386s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.387s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.388s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.389s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.390s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.391s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.392s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.393s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.394s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.395s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.396s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.397s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[4.397s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[4.397s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[4.398s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.399s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.403s] -- Found pcl_ros: 2.6.4 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[4.521s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.611s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.612s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.614s] -- Configured cppcheck include dirs: 
+[4.614s] -- Configured cppcheck exclude dirs and/or files: 
+[4.615s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.615s] -- Configured cpplint exclude dirs and/or files: 
+[4.615s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.615s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.616s] -- Added test 'lint_cmake' to check CMake code style
+[4.617s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.618s] -- Added test 'uncrustify' to check C / C++ code style
+[4.618s] -- Configured uncrustify additional arguments: 
+[4.618s] -- Added test 'xmllint' to check XML markup files
+[4.620s] -- Configuring done (4.6s)
+[4.898s] -- Generating done (0.2s)
+[4.935s] -- Build files have been written to: /home/chujoken/ros2_ws/build/crane_x7_examples
+[4.953s] Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_examples' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples -DCMAKE_INSTALL_PREFIX=/home/chujoken/ros2_ws/install/crane_x7_examples
+[4.953s] Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_examples': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_examples -- -j16 -l16
+[4.996s] [ 22%] [32mBuilding CXX object CMakeFiles/joint_values.dir/src/joint_values.cpp.o[0m
+[4.996s] [ 22%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[4.996s] [ 22%] [32mBuilding CXX object CMakeFiles/pick_and_place_tf.dir/src/pick_and_place_tf.cpp.o[0m
+[4.996s] [ 22%] [32mBuilding CXX object CMakeFiles/aruco_detection.dir/src/aruco_detection.cpp.o[0m
+[4.996s] [ 27%] [32mBuilding CXX object CMakeFiles/pose_groupstate.dir/src/pose_groupstate.cpp.o[0m
+[4.997s] [ 33%] [32mBuilding CXX object CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.o[0m
+[4.997s] [ 38%] [32mBuilding CXX object CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o[0m
+[4.998s] [ 44%] [32mBuilding CXX object CMakeFiles/color_detection.dir/src/color_detection.cpp.o[0m
+[5.000s] [ 50%] [32mBuilding CXX object CMakeFiles/point_cloud_detection.dir/src/point_cloud_detection.cpp.o[0m
+[10.834s] [ 55%] [32m[1mLinking CXX executable gripper_control[0m
+[10.891s] [ 61%] [32m[1mLinking CXX executable pose_groupstate[0m
+[11.013s] [ 66%] [32m[1mLinking CXX executable cartesian_path[0m
+[11.123s] [ 72%] [32m[1mLinking CXX executable pick_and_place[0m
+[11.578s] [ 72%] Built target pose_groupstate
+[11.578s] [ 72%] Built target gripper_control
+[11.767s] [ 72%] Built target cartesian_path
+[11.871s] [ 72%] Built target pick_and_place
+[11.875s] [ 77%] [32m[1mLinking CXX executable pick_and_place_tf[0m
+[12.595s] [ 77%] Built target pick_and_place_tf
+[13.100s] [ 83%] [32m[1mLinking CXX executable joint_values[0m
+[13.685s] [ 83%] Built target joint_values
+[16.139s] [ 88%] [32m[1mLinking CXX executable aruco_detection[0m
+[16.235s] [ 94%] [32m[1mLinking CXX executable color_detection[0m
+[17.411s] [ 94%] Built target aruco_detection
+[17.458s] [ 94%] Built target color_detection
+[18.813s] [100%] [32m[1mLinking CXX executable point_cloud_detection[0m
+[20.305s] [100%] Built target point_cloud_detection
+[20.312s] Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_examples' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/chujoken/ros2_ws/build/crane_x7_examples -- -j16 -l16
+[20.313s] Invoking command in '/home/chujoken/ros2_ws/build/crane_x7_examples': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_examples
+[20.319s] -- Install configuration: ""
+[20.319s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/gripper_control
+[20.319s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/gripper_control" to ""
+[20.320s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/cartesian_path
+[20.320s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/cartesian_path" to ""
+[20.320s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pose_groupstate
+[20.320s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pose_groupstate" to ""
+[20.320s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/joint_values
+[20.320s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/joint_values" to ""
+[20.320s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place
+[20.321s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place" to ""
+[20.321s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place_tf
+[20.322s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/pick_and_place_tf" to ""
+[20.322s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/aruco_detection
+[20.326s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/aruco_detection" to ""
+[20.326s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/color_detection
+[20.330s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/color_detection" to ""
+[20.330s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/point_cloud_detection
+[20.333s] -- Set non-toolchain portion of runtime path of "/home/chujoken/ros2_ws/install/crane_x7_examples/lib/crane_x7_examples/point_cloud_detection" to ""
+[20.333s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch
+[20.333s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/example.launch.py
+[20.333s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/demo.launch.py
+[20.333s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/camera_example.launch.py
+[20.333s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples//launch/camera_example.rviz
+[20.333s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/ament_index/resource_index/package_run_dependencies/crane_x7_examples
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/ament_index/resource_index/parent_prefix_path/crane_x7_examples
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/ament_prefix_path.sh
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/ament_prefix_path.dsv
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/path.sh
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/environment/path.dsv
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.bash
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.sh
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.zsh
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/local_setup.dsv
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.dsv
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/ament_index/resource_index/packages/crane_x7_examples
+[20.334s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/cmake/crane_x7_examplesConfig.cmake
+[20.335s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/cmake/crane_x7_examplesConfig-version.cmake
+[20.335s] -- Installing: /home/chujoken/ros2_ws/install/crane_x7_examples/share/crane_x7_examples/package.xml
+[20.337s] Invoked command in '/home/chujoken/ros2_ws/build/crane_x7_examples' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chujoken/ros2_ws/install/crane_x7_examples_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/chujoken/ros2_ws/build/crane_x7_examples

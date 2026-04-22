@@ -1,0 +1,69 @@
+[0.838s] Invoking command in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples_py': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/build/crane_x7_examples_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crane_x7_examples_py build --build-base /home/chujoken/ros2_ws/build/crane_x7_examples_py/build install --record /home/chujoken/ros2_ws/build/crane_x7_examples_py/install.log --single-version-externally-managed install_data
+[1.112s] running egg_info
+[1.113s] creating ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info
+[1.136s] writing ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/PKG-INFO
+[1.136s] writing dependency_links to ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/dependency_links.txt
+[1.136s] writing entry points to ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/entry_points.txt
+[1.137s] writing requirements to ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/requires.txt
+[1.137s] writing top-level names to ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/top_level.txt
+[1.137s] writing manifest file '../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/SOURCES.txt'
+[1.184s] reading manifest file '../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/SOURCES.txt'
+[1.184s] writing manifest file '../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info/SOURCES.txt'
+[1.184s] running build
+[1.185s] running build_py
+[1.185s] creating /home/chujoken/ros2_ws/build/crane_x7_examples_py/build
+[1.185s] creating /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib
+[1.185s] creating /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.185s] copying crane_x7_examples_py/color_detection.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.185s] copying crane_x7_examples_py/utils.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.185s] copying crane_x7_examples_py/pick_and_place.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.185s] copying crane_x7_examples_py/pick_and_place_tf.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.185s] copying crane_x7_examples_py/__init__.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.185s] copying crane_x7_examples_py/joint_values.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.185s] copying crane_x7_examples_py/pose_groupstate.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.186s] copying crane_x7_examples_py/aruco_detection.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.186s] copying crane_x7_examples_py/gripper_control.py -> /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py
+[1.186s] running install
+[1.190s] running install_lib
+[1.215s] creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.215s] copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/color_detection.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.215s] copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/utils.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.215s] copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/pick_and_place.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.215s] copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/pick_and_place_tf.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.215s] copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/__init__.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.215s] copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/joint_values.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.215s] copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/pose_groupstate.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.215s] copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/aruco_detection.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.215s] copying /home/chujoken/ros2_ws/build/crane_x7_examples_py/build/lib/crane_x7_examples_py/gripper_control.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py
+[1.216s] byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/color_detection.py to color_detection.cpython-312.pyc
+[1.217s] byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/utils.py to utils.cpython-312.pyc
+[1.217s] byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/pick_and_place.py to pick_and_place.cpython-312.pyc
+[1.218s] byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/pick_and_place_tf.py to pick_and_place_tf.cpython-312.pyc
+[1.219s] byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/__init__.py to __init__.cpython-312.pyc
+[1.219s] byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/joint_values.py to joint_values.cpython-312.pyc
+[1.220s] byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/pose_groupstate.py to pose_groupstate.cpython-312.pyc
+[1.220s] byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/aruco_detection.py to aruco_detection.cpython-312.pyc
+[1.221s] byte-compiling /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py/gripper_control.py to gripper_control.cpython-312.pyc
+[1.221s] running install_data
+[1.221s] creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/ament_index
+[1.221s] creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/ament_index/resource_index
+[1.222s] creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/ament_index/resource_index/packages
+[1.222s] copying resource/crane_x7_examples_py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/ament_index/resource_index/packages
+[1.222s] copying package.xml -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py
+[1.222s] creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/launch
+[1.222s] copying launch/example.launch.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/launch
+[1.222s] copying launch/camera_example.launch.py -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/launch
+[1.222s] creating /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/config
+[1.222s] copying config/crane_x7_moveit_py_examples.yaml -> /home/chujoken/ros2_ws/install/crane_x7_examples_py/share/crane_x7_examples_py/config
+[1.222s] running install_egg_info
+[1.247s] Copying ../../../build/crane_x7_examples_py/crane_x7_examples_py.egg-info to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages/crane_x7_examples_py-5.0.0-py3.12.egg-info
+[1.247s] running install_scripts
+[1.388s] Installing aruco_detection script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+[1.389s] Installing color_detection script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+[1.389s] Installing gripper_control script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+[1.389s] Installing joint_values script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+[1.389s] Installing pick_and_place script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+[1.389s] Installing pick_and_place_tf script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+[1.389s] Installing pose_groupstate script to /home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/crane_x7_examples_py
+[1.389s] writing list of installed files to '/home/chujoken/ros2_ws/build/crane_x7_examples_py/install.log'
+[1.407s] Invoked command in '/home/chujoken/ros2_ws/src/crane_x7_ros/crane_x7_examples_py' returned '0': CMAKE_PREFIX_PATH=/home/chujoken/ros2_ws/install/crane_x7_moveit_config:/home/chujoken/ros2_ws/install/crane_x7_control:/home/chujoken/ros2_ws/install/crane_x7_description:/home/chujoken/ros2_ws/install/crane_x7:/home/chujoken/ros2_ws/install/crane_x7_examples:/home/chujoken/ros2_ws/install/crane_x7_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chujoken/ros2_ws/build/crane_x7_examples_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/home/chujoken/ros2_ws/install/crane_x7_description/lib/python3.12/site-packages:/home/chujoken/ros2_ws_3/build/crane_x7_examples_py:/home/chujoken/ros2_ws/install/crane_x7_examples_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crane_x7_examples_py build --build-base /home/chujoken/ros2_ws/build/crane_x7_examples_py/build install --record /home/chujoken/ros2_ws/build/crane_x7_examples_py/install.log --single-version-externally-managed install_data

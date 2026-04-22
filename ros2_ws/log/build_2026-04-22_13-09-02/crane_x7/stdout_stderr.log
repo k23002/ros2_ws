@@ -1,0 +1,33 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/chujoken/ros2_ws/build/crane_x7
+-- Install configuration: ""
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/ament_index/resource_index/package_run_dependencies/crane_x7
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/ament_index/resource_index/parent_prefix_path/crane_x7
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/environment/ament_prefix_path.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/environment/ament_prefix_path.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/environment/path.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/environment/path.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/local_setup.bash
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/local_setup.sh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/local_setup.zsh
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/local_setup.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.dsv
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/ament_index/resource_index/packages/crane_x7
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/cmake/crane_x7Config.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/cmake/crane_x7Config-version.cmake
+-- Installing: /home/chujoken/ros2_ws/install/crane_x7/share/crane_x7/package.xml
